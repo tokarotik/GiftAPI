@@ -1,0 +1,12 @@
+# For colors:
+# do not use § use only &
+
+gui:
+  # Set Title Only In English
+  # Max title length is 32 letters
+  title-menu: "Set Your Title In Config"
+
+  buttons:
+    right-name: "&6>"
+    left-name: "&6<"
+    exit-name: "&4Exit"
