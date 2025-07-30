@@ -17,7 +17,7 @@ import tokarotik.giftapi.inventory.InventoryManager;
 public class APIManager implements Listener {
     private final InventoryManager inventoryManager;
 
-    public APIManager(Main plugin, FileConfiguration config, int inventorySlots) {
+    public APIManager(GiftAPI plugin, FileConfiguration config, int inventorySlots) {
         if (plugin == null || config == null) {
             throw new IllegalArgumentException("Plugin and config must not be null.");
         }
